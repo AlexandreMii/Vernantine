@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de la Cantine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #323232;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #428923;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .menu {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .menu h2 {
+            margin-top: 0;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu li {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .menu li h3 {
+            margin: 0 0 10px;
+        }
+        .menu li p {
+            margin: 5px 0 0;
+            color: #777;
+        }
+        .menu li .price {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Cantine App</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="concours.html">Concours</a></li>
+                    <li><a href="avis.html">Avis</a></li>
+                    <li><a href="infos.html">Infos</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="menu">
+            <h2>Menu du Jour</h2>
+            <ul>
+                <li>
+                    <h3>Macédoine en Salade</h3>
+                    <p>Poulet rôti avec légumes de saison et sauce au miel.</p>
+                    <p class="price">0,00 €</p>
+                </li>
+                <li>
+                    <h3>Feijoada avec viande (Cassoulet Brésillien) ou Feijoada Végétarien</h3>
+                    <p>Laitue romaine, croûtons, parmesan, sauce César.</p>
+                    <p class="price">0,00 €</p>
+                </li>
+                <li>
+                    <h3>Compote Bio</h3>
+                    <p>Pâtes fraîches avec sauce bolognaise maison.</p>
+                    <p class="price">0,00 €</p>
+                </li>
+                <li>
+                    <h3>Galette Bretonne</h3>
+                    <p>Tarte aux pommes maison avec une touche de cannelle.</p>
+                    <p class="price">0,00 €</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
