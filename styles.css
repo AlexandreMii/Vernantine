@@ -93,3 +93,19 @@ header nav {
     border-radius: 4px;
     cursor: pointer;
 }
+
+header {
+    background: linear-gradient(to right, #428923, #77aaff);
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+.menu {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+.menu h2 {
+    margin-top: 0;
+}
